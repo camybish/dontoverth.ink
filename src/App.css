@@ -16,8 +16,16 @@ h1 {
   background-color: #000000;
 }
 
+h2 {
+  color: white;
+}
+
 .logo {
   width: 20px;
+}
+
+.image {
+  width: 500px;
 }
 
 a {

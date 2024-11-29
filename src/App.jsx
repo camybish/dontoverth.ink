@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import instagramLogo from './assets/Instagram_logo_2022.svg.webp';
+import loel_image from './assets/dontoverthink_picture.jpg';
 import './App.css'
 
 function App() {
@@ -10,8 +10,12 @@ function App() {
       <h1>DONT OVERTH.INK</h1>
       {/* <img className='logo' src={instagramLogo}/> */}
       <div id='bodyContent'>
-      <h2>INSTAGRAM:</h2>
-      <a href='https://www.instagram.com/loelfolio/'>@loelfolio</a>
+      <a href='https://www.instagram.com/loelfolio/'>@loelfolio</a><br/>
+      <img className='image' src={loel_image} />
+      <img className='image' src={loel_image} />
+      <img className='image' src={loel_image} />
+      <img className='image' src={loel_image} />
+
       </div>
     </div>
   )
