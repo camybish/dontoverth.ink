@@ -28,6 +28,12 @@ h2 {
   width: 500px;
 }
 
+@media screen and (max-width: 590px) {
+  .image {
+    width: 90%;
+  }
+}
+
 a {
   color: white;
 }
